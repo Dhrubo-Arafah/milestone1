@@ -3,10 +3,6 @@
     width: 100%;
   }
 
-  img {
-    width: 100%;
-    padding: 20px;
-  }
   .nav .left,
   .nav .right,
   #hero .left,
@@ -30,8 +26,14 @@
 
   #dream .container{
       flex-direction: column-reverse;
-       margin: 30px
+       margin: 30px auto;
   }
+
+    #hero .container img
+  #dream .container img{
+    width: 80%;
+  }
+
   .nav{
      text-align: center;
      padding-bottom: 10px;
@@ -42,9 +44,12 @@
   }
 
   #experience .heading{
+    text-align: center;
       margin: 0;
       width: 100%;
-      padding: 0 30px;
+    
   }
-
+  #experience hr{
+    margin: 5px auto 20px auto;
+  }
 }
